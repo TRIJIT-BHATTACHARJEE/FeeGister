@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_bright"
+    android:elevation="1dp"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/addstudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/colorAccent"
+        android:elevation="0dp"
+        android:padding="15dp"
+        android:text="ADD NEW STUDENT"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:onClick="addNewStudent"/>
+
+
+
+    <Button
+        android:id="@+id/seeallstudents"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/colorAccent"
+        android:elevation="0dp"
+        android:padding="15dp"
+        android:text="VIEW ALL STUDENTS"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:onClick="viewAllStudents"/>
+
+</LinearLayout>

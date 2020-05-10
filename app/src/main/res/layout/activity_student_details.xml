@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_bright"
+    android:elevation="1dp"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/stdname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Enter student name "
+        android:inputType="textPersonName"
+        android:padding="20dp"
+        android:textStyle="italic"/>
+
+    <EditText
+        android:id="@+id/phno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Enter mobile number "
+        android:inputType="phone"
+        android:padding="20dp"
+        android:textStyle="italic"/>
+
+    <EditText
+        android:id="@+id/emailid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Enter valid email id  "
+        android:inputType="textEmailAddress"
+        android:padding="20dp"
+        android:textStyle="italic"/>
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorAccent"
+        android:text="SAVE"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:onClick="saveStudentRecord"/>
+</LinearLayout>

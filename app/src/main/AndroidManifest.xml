@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hp.studentfeesregister">
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/teachgister"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/teachgister"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Home"></activity>
+        <activity
+            android:name=".StudentDetails"
+            android:label="Enter the student details"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".StudentList"
+            android:label="Student List"
+            android:screenOrientation="fullSensor" />
+        />
+        <activity
+            android:name=".StudentData"
+            android:label="Student Details"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".PaymentActivity"
+            android:label="Payment Details"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".SignUp"
+            android:label="Sign Up with your details"
+            android:screenOrientation="fullSensor">
+        </activity>
+        <activity android:name=".SplashScreen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

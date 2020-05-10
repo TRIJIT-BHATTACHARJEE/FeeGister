@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_bright"
+    android:elevation="1dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edittext_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="10dp"
+        android:inputType="textPersonName"
+        android:hint="Set UserName"
+        android:padding="25dp"/>
+
+    <EditText
+        android:id="@+id/edittext_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Set a Password"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:padding="25dp"
+        android:password="false"
+        android:selectAllOnFocus="true" />
+
+    <EditText
+        android:id="@+id/edittext_password_cnf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Retype the Password"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:padding="25dp"
+        android:selectAllOnFocus="true" />
+
+    <EditText
+        android:id="@+id/edittext_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:padding="25dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:hint="Set your mobile number for sending sms"/>
+
+    <Button
+        android:id="@+id/button_signup"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Sign Up"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="25dp"
+        android:onClick="SignUpClick"
+        />
+</LinearLayout>
